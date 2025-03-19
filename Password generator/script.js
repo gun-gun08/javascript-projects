@@ -11,7 +11,7 @@ function generatePassword() {
     document.getElementById("password").value = password;
 }
 
-// Copy to clipboard
+
 document.getElementById("copyBtn").addEventListener("click", function () {
     const passwordField = document.getElementById("password");
     passwordField.select();

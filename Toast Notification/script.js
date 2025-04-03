@@ -10,3 +10,4 @@ function showToast(message, type) {
         toast.remove();
     }, 3000);
 }
+

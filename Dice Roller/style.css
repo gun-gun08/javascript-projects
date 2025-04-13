@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+#dice {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s ease;
+}
+.rolling {
+  transform: rotate(360deg);
+}
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+  

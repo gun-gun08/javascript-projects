@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+main {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-container, .people-input, .tip-input, .bill-output {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.bill-output span {
+    font-weight: bold;
+    color: #333;
+}

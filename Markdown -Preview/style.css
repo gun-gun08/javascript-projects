@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  textarea, #preview {
+    width: 45%;
+    height: 400px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    overflow-y: auto;
+  }
+  
+  textarea {
+    resize: none;
+    font-family: monospace;
+    font-size: 16px;
+  }
+  

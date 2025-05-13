@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MusicHub - Online Music Streaming</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>🎵 MusicHub</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#trending">Trending</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#playlist">My Playlist</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h2>Welcome to MusicHub</h2>
+      <p>Stream your favorite music anytime, anywhere.</p>
+    </section>
+
+    <section id="trending">
+      <h2>🔥 Trending Songs</h2>
+      <div class="song-grid" id="trending-songs">
+        <!-- Songs will be injected here -->
+      </div>
+    </section>
+
+    <section id="categories">
+      <h2>🎶 Categories</h2>
+      <div class="categories">
+        <button onclick="filterCategory('Bollywood')">Bollywood</button>
+        <button onclick="filterCategory('English')">English</button>
+        <button onclick="filterCategory('Lo-Fi')">Lo-Fi</button>
+      </div>
+    </section>
+
+    <section id="playlist">
+      <h2>🎧 My Playlist</h2>
+      <ul id="my-playlist"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="player">
+      <img id="cover" src="assets/images/default.jpg" alt="cover" />
+      <div>
+        <h3 id="song-title">Select a Song</h3>
+        <p id="song-artist">Artist</p>
+      </div>
+      <audio id="audio" controls></audio>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

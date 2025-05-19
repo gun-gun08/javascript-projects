@@ -15,8 +15,8 @@ body {
 
 .toolbar {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top:20px;
+    left: 40px;
     background-color: #fff;
     padding: 10px;
     border-radius: 8px;
